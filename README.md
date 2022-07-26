@@ -11,9 +11,9 @@ A menu-based toolbox built in Powershell to efficiently perform Admin Tasks for 
 
 To run this script you will need to be able to run unsigned Powershell scripts on your machine. If you are unable to download or run these on your device then you may need to check with your corporate Infrastructure team to enable this on your device. This script was tested using a Remote Packaged Application version of Windows Powershell as I was unable to get this working locally on my Dell Windows Laptop. I was unable to change this so stored this file on a network drive which was on the same server as the .PS1 script file
 
-A Microsoft Admin Account for your Organisational Microsoft Exchange Server
-Windows Powershell (With No Restriction on Code Execution)
-Permission to run this on your network
+- A Microsoft Admin Account for your Organisational Microsoft Exchange Server
+- Windows Powershell (With No Restriction on Code Execution)
+- Permission to run this on your network
 
 # How to Launch the Application (First Time Use)
 
@@ -29,9 +29,9 @@ The exact link to the script due to an issue with it running from the S Drive at
 
 3. Once Windows Powershell is open, Change Directory to get to the Network location of the script. 
 
-4. Then you need to Launch the application from Powershell which you can do by using the below command: (Change name to current full filename)
+4. Then you need to Launch the application from Powershell which you can do by using the below command:
 
-./ExchangeToolboxV1.ps1
+<code>./ExchangeToolboxV1.ps1</code>
 
 Please Note: This command asks Powershell to run the script in the directory you are currently working in.
 

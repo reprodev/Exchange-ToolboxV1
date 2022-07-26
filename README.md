@@ -47,7 +47,7 @@ This toolbox doesn't have an Active Directory functions in it so you won't be ab
 
 ### Can this break something?
 
-The Powershell commands used in this toolbox are safe to use and not run a script unless all required information has been entered. There are no commands in here to delete or create any Mailboxes or Calendars, only adding, removing or listing them. With that said I take no responsbility for misuse of this tool but as you have to use your Admin Credentials, any changes to mailboxes will be logged by your organisation infrasture team so make sure you've asked for permission to use this in a production environment.
+The Powershell commands used in this toolbox are safe to use and not run a script unless all required information has been entered. There are no commands in here to delete or create any Mailboxes or Calendars, only adding, removing or listing them. With that said I take no responsibility for misuse of this tool but as you have to use your Admin Credentials, any changes to mailboxes will be logged by your organisation infrastructure team so make sure you've asked for permission to use this in a production environment.
 
 ### Can I change or edit the menu options easily?
 
@@ -61,7 +61,7 @@ You can buy me a coffee on https://ko-fi.com/reprodev and check out my other pro
 
 # Background
 
-In my role as a Service Desk Analyst mixing a bit of First Line and Second Line at an organisation, one of the tasks was to add and remove Executive Assistants to Mailboxes and Calendars. This was usually a pretty straightforward task but would either be done in Microsoft Exchange Admin click by click or for Calendars in Powershell line by line. We usually got these reqeusts once every week or so and as a team we were able to action these requests within our SLA and normal workload. Howeever, we were moving to a new solution as a project throughout the organisation and from a VDI environment with Thin Client Laptops to one where each user now had a Fat Client Dell Laptop instead.
+In my role as a Service Desk Analyst mixing a bit of First Line and Second Line at an organisation, one of the tasks was to add and remove Executive Assistants to Mailboxes and Calendars. This was usually a pretty straightforward task but would either be done in Microsoft Exchange Admin click by click or for Calendars in Powershell line by line. We usually got these requests once every week or so and as a team we were able to action these requests within our SLA and normal workload. Howeever, we were moving to a new solution as a project throughout the organisation and from a VDI environment with Thin Client Laptops to one where each user now had a Fat Client Dell Laptop instead.
 
 During the project and after the move, some users found that they may have lost access to the mailbox or calendars in the way they were set up within the old VDI environment. We started to get a lot of tickets for people reporting they had lost access to these calendars or mailboxes even after their Manager had sent a Sharing Request again.
 
@@ -69,7 +69,7 @@ This caused a lot of manual work for the Service Desk team as a whole and so to 
 
 Looking into it some users had lost permission to calendars but others still had this access. If they re-added the calendars in Outlook manually they would find them there but as some were still getting to grips with the new devices we would need to try another approach. The idea was to remove and then re-add them in an efficient way and that was what the first version of this tool did.
 
-After liasing with our Infrastructure team and getting permission to use this on the network in production I created a version to test with the other anlysts and wider team. Through user testing and feedback it became the version you see now which still needs functions added to it but fulfilled the need for a quick way to work on Calendars for our team.
+After liaising with our Infrastructure team and getting permission to use this on the network in production I created a version to test with the other analysts and wider team. Through user testing and feedback it became the version you see now which still needs functions added to it but fulfilled the need for a quick way to work on Calendars for our team.
 
 ## References:
 

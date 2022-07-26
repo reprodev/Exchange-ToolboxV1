@@ -37,7 +37,7 @@ Please Note: This command asks Powershell to run the script in the directory you
 
 5. You have now launched the application and will be asked to login using your full ADM email address for your organisation e.g. adm-joeb@work.com and current password before being presented with the Main Menu.
 
-![Exchange Toolbox V1 Home Page 01](https://user-images.githubusercontent.com/8764255/180898517-1da29a1c-c79a-4b50-a816-38c9b0de074f.png)
+![Exchange Toolbox V1 Home Page 02](https://user-images.githubusercontent.com/8764255/180899049-1c8a0e17-1ad5-423b-b3d2-656e4beb2ff6.png)
 
 # FAQ
 

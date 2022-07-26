@@ -67,7 +67,7 @@ During the project and after the move, some users found that they may have lost 
 
 This caused a lot of manual work for the Service Desk team as a whole and so to try and automate this process I looked into creating a basic set of Powershell commands in an easier to use package. I had created something similar for myself and will share that soon but that was something which didn't do anything Mailbox or Calendar related.
 
-Looking into it some users had lost permission to calendars but others still had this access. If they re-added the calendars in Outlook manually they would find them there but as some were still getting to grips with the new devices we would need to try another approach. The idea was to remove and then re-add them in an efficient way and that was the first version of this tool did.
+Looking into it some users had lost permission to calendars but others still had this access. If they re-added the calendars in Outlook manually they would find them there but as some were still getting to grips with the new devices we would need to try another approach. The idea was to remove and then re-add them in an efficient way and that was what the first version of this tool did.
 
 After liasing with our Infrastructure team and getting permission to use this on the network in production I created a version to test with the other anlysts and wider team. Through user testing and feedback it became the version you see now which still needs functions added to it but fulfilled the need for a quick way to work on Calendars for our team.
 

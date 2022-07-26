@@ -1,6 +1,6 @@
 # Microsoft Exchange Toolbox
 
-A menu-based toolbox built in Powershell to efficiently perform Admin Tasks for Mailboxes and Calendars in Service Desk Analysts and Deskside Engineers in Microsoft Exchange
+A menu-based toolbox built in Powershell to efficiently perform Admin Tasks for Mailboxes and Calendars for Service Desk Analysts and Deskside Engineers in Microsoft Exchange
 
 <a href='https://ko-fi.com/Z8Z6E0CY0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
